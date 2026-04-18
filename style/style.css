@@ -102,7 +102,7 @@ body{
   background-color: var(--gray);
   font-weight: 700;
   font-size: 1rem;
-  color: var(--dark);
+  color: var(--btn-tex);
   padding: 15px 30px;
   border-radius: 30px;
   display: flex;
@@ -248,9 +248,14 @@ color: var(--btn-tex);
   }
   .main-content-wraper{
     grid-template-columns: repeat(1, 1fr);
-    
   }
-  
+
+  .main-content-card{
+    margin: 30px auto;
+  }
+  .content-card-image{
+    width: 100%;
+  }
   
 
 }
